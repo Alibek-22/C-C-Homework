@@ -7,7 +7,7 @@ int main() {
     
     while (scanf("%c", &digit) == 1) {
         if (isdigit(digit)) {
-            sum += digit - '0';  // Преобразуем символ в число
+            sum += digit - '0';  
         } else {
             break;
         }

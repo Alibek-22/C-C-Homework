@@ -7,13 +7,21 @@ void mult2(int* p, size_t n) {
 }
 
 int main() {
-    int arr[] = {1, 2, 3, 4, 5};
-    size_t n = sizeof(arr) / sizeof(arr[0]);
+    size_t n;
+    printf("A: ");
+    scanf("%zu", &n);
+
+    int arr[n];
+    printf("B:\n");
+    for (size_t i = 0; i < n; i++) {
+        scanf("%d", (arr + i));
+    }
 
     mult2(arr, n);
 
+    printf("C:\n");
     for (size_t i = 0; i < n; i++) {
-        printf("%d ", arr[i]);
+        printf("%d ", *(arr + i));
     }
 
     return 0;

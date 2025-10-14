@@ -26,7 +26,7 @@ int is_square(int x)
 {
     if (x < 0)
         return 0;
-    int root = (int)(sqrt(x) + 0.5); // округляем
+    int root = (int)(sqrt(x) + 0.5); 
     return root * root == x;
 }
 

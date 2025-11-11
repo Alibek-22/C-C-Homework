@@ -1,11 +1,11 @@
 #include <iostream>
 
-int& getRefToMax(int &a, int &b)
+int& getRefToMax(int pa, int pb)
 {
-    if (a > b)
-        return a;
+    if (pa > pb)
+        return pa;
     else
-        return b;
+        return pb;
 }
 
 int main()

@@ -12,7 +12,7 @@ int main()
     std::cout << isDomainName("abc") << std::endl;               
     std::cout << isDomainName("hello.com") << std::endl;         
     
-    // Дополнительные тесты
+    // Дополнительно
     std::cout << isDomainName("www.yandex.com") << std::endl;    
     std::cout << isDomainName("www.mail.com") << std::endl;      
     std::cout << isDomainName("google.com") << std::endl;        

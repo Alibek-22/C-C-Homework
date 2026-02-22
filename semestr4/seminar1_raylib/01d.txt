@@ -1,0 +1,7 @@
+ОС: Linux
+Компилятор: g++
+Оболочка: bash
+
+Команды:
+g++ test.cpp -L. -lmiptlib -o test_dynamic
+LD_LIBRARY_PATH=. ./test_dynamic

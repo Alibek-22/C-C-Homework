@@ -1,0 +1,7 @@
+ОС: Linux
+Компилятор: g++
+Оболочка: bash
+
+Команды:
+g++ 01e_test.cpp -o test_dl -ldl
+LD_LIBRARY_PATH=. ./test_dl

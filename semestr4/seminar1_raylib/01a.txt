@@ -1,0 +1,7 @@
+ОС: Linux (Ubuntu 20.04)
+Компилятор: g++ (GCC) 9.4.0
+Оболочка: bash
+
+Команды:
+g++ -c algebra.cpp geometry.cpp statistics.cpp
+ar rcs libmiptlib.a algebra.o geometry.o statistics.o

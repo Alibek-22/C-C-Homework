@@ -1,0 +1,7 @@
+ОС: Linux
+Компилятор: g++
+Оболочка: bash
+
+Команды:
+g++ -c -fPIC algebra.cpp geometry.cpp statistics.cpp
+g++ -shared -o libmiptlib.so algebra.o geometry.o statistics.o
